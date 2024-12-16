@@ -4,6 +4,7 @@
 
 
 # These are used by the Loader in Unreal
+keys:
     sg_asset_type:
         type: str
         shotgun_entity_type: Asset
@@ -50,7 +51,7 @@ paths:
     unreal.maya_turntable_render:
         definition: '@asset_root/work/images/{name}_turntable_v{version}.{ue_mov_ext}'
     unreal.maya_turntable_publish:
-        definition: '@asset_root/review/{Asset}.{Step}.turntable.v{version}.{ue_mov_ext}'
+        definition: '@asset_root/review/unreal/{Asset}.{Step}.turntable.v{version}.{ue_mov_ext}'
     # Placeholder location for static mesh assets exported from Unreal
     # Hook implementation intended to be a starting point for a pipeline
     # No context info used in template, developers expected to further customize
