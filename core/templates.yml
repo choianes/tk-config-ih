@@ -515,9 +515,6 @@ paths:
     # The location of published maya files
     maya_asset_publish:
         definition: '@asset_root/pub/maya/{maya_extension}/{Asset}.{Step}.v{version}.{maya_extension}'
-    # The new location of published maya fbx files - - - - - - - - - - - - -
-    maya_asset_fbx_publish:
-        definition: '@asset_root/pub/maya/fbx/{Asset}.{Step}.v{version}.{maya_extension}'
     # Render turntable publishing path in Maya - - - - - - - - - - - - - -
     maya_turntable_publish:
         definition: '@asset_root/review/maya/{Asset}.{Step}.maya.v{version}.{ue_mov_ext}'
